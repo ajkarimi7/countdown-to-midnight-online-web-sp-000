@@ -9,4 +9,4 @@ def countdown(seconds_to_midnight)
    "HAPPY NEW YEAR!"
 end
 
-countdown_with_sleep()
+countdown_with_sleep(seconds_to_midnight)
