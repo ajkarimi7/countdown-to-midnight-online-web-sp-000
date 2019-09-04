@@ -1,8 +1,7 @@
 #write your code here
 
-def countdown(number)
-  number = 10 
-  while number != 0
+def countdown(seconds_to_midnight)
+  while seconds_to_midnight > 0
     number -= 1
     puts "#{number} SECOND(S)!"
   end 
